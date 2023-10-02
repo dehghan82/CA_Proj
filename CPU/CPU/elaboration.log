@@ -1,0 +1,50 @@
+Active-HDL 13.0.375.8320 2023-07-11 05:23:56
+
+Elaboration top modules:
+Architecture                  Behavioral(CPU)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity             | Architecture   | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+CPU                | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+inst_fetch         | inst_fetch_beh | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+inst_decode        | inst_dec_beh   | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+EXE                | exe_beh        | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+Memory             | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+write_back         | behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+pc_reg             | pc_reg_arc     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+instruction_memory | behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+IF_ID_reg          | register_if_id | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+register_file      | reg_file_arc   | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+Controller         | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+ID_EX_reg          | ID_EX_register | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+ALU_VHDL           | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+status_reg         | rtl            | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+EX_MEM_reg         | EX_MEM_reg_beh | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+Adder              | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+FullAdder          | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+DataMemory         | behav          | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+MEM_WB_reg         | Behavioral     | cpu     |      | 13.0.375.8320 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                        | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                            | std     |      |                           | <unavailable>
+TEXTIO                              | std     |      | 13.0.375.8320 (Windows64) |  -2019
+std_logic_1164                      | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                         | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+std_logic_arith                     | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                  | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+STD_LOGIC_TEXTIO                    | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED                    | ieee    |      | 13.0.375.8320 (Windows64) | <unavailable>
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                             | Comment
+-------------------------------------------------------------------------------------------------------
+cpu                                 | None
+ieee                                | Standard IEEE packages library
+std                                 | Standard VHDL library
+-------------------------------------------------------------------------------------------------------

@@ -1,0 +1,74 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=CPU
+[Library]
+CPU=.\CPU\CPU.lib
+[$LibMap$]
+CPU=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/register_file.vhd=-1
+/ALU.vhd=-1
+/control_unit.vhd=-1
+/IF_ID_reg.vhd=-1
+/ID_EX_reg.vhd=-1
+/instruction_memory.vhd=-1
+/pc_reg.vhd=-1
+/IF.vhd=-1
+/ID.vhd=-1
+/EX_MEM_REG.vhd=-1
+/EXE.vhd=-1
+/read_file.vhd=-1
+/data_memory.vhd=-1
+/MEM_WB_reg.vhd=-1
+/memory.vhd=-1
+/write_back.vhd=-1
+/Adder.vhd=-1
+/fulladder.vhd=-1
+/status_reg.vhd=-1
+/cpu.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/cpu_TB.vhd=-1
+TestBench/cpu_TB_runtest.do=-1
+[Files.Data]
+.\src\register_file.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\control_unit.vhd=VHDL Source Code
+.\src\IF_ID_reg.vhd=VHDL Source Code
+.\src\ID_EX_reg.vhd=VHDL Source Code
+.\src\instruction_memory.vhd=VHDL Source Code
+.\src\pc_reg.vhd=VHDL Source Code
+.\src\IF.vhd=VHDL Source Code
+.\src\ID.vhd=VHDL Source Code
+.\src\EX_MEM_REG.vhd=VHDL Source Code
+.\src\EXE.vhd=VHDL Source Code
+.\src\read_file.vhd=VHDL Source Code
+.\src\data_memory.vhd=VHDL Source Code
+.\src\MEM_WB_reg.vhd=VHDL Source Code
+.\src\memory.vhd=VHDL Source Code
+.\src\write_back.vhd=VHDL Source Code
+.\src\Adder.vhd=VHDL Source Code
+.\src\fulladder.vhd=VHDL Source Code
+.\src\status_reg.vhd=VHDL Source Code
+.\src\cpu.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\cpu_TB.vhd=VHDL Test Bench
+.\src\TestBench\cpu_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=cpu|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1

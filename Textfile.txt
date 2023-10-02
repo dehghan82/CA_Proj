@@ -1,0 +1,6 @@
+Sw d0, 10
+CLR d0
+Mov BA, 50
+CMP d0, d1
+Bne 25
+Jmp 2500
